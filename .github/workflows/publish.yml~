@@ -33,7 +33,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/pgamit
+      url: https://test.pypi.org/p/icebath
 
     permissions:
       id-token: write
@@ -55,10 +55,10 @@ jobs:
     needs:
       - publish-to-testpypi
     runs-on: ubuntu-latest
-    
+    :q
     environment:
       name: pypi
-      url: https://pypi.org/p/pgamit
+      url: https://pypi.org/p/icebath
       
     permissions:
       id-token: write
