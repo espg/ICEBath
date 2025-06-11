@@ -55,7 +55,6 @@ jobs:
     needs:
       - publish-to-testpypi
     runs-on: ubuntu-latest
-    :q
     environment:
       name: pypi
       url: https://pypi.org/p/icebath
